@@ -9,8 +9,8 @@ for _ in range(t):
 
 # Two or more line inputs
 t = int(input())
-
-for t in range(int(input())):
+for _ in range(t):
+    
     i = [x for x in input()]
     p = [x for x in input()]
     # Add inputs as necessary
