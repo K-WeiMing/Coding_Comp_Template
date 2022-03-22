@@ -16,3 +16,9 @@ for _ in range(t):
     # Add inputs as necessary
     
     # Execute code here
+
+# Two or more line inputs for lists
+t = int(input())
+for _ in range(t):
+    x = [int(_) for _ in input().split()]
+    y = [int(_) for _ in input().split()]
